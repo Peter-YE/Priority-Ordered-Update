@@ -294,6 +294,8 @@ pri_cpp: CMakeFiles/pri_cpp.dir/tic.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/toc.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/build.make
+pri_cpp: /Applications/MATLAB_R2021a.app/bin/maci64/libmat.dylib
+pri_cpp: /Applications/MATLAB_R2021a.app/bin/maci64/libmx.dylib
 pri_cpp: CMakeFiles/pri_cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable pri_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pri_cpp.dir/link.txt --verbose=$(VERBOSE)

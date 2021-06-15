@@ -41,6 +41,9 @@ CMakeFiles/pri_cpp.dir/main.cpp.o: ../classification.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../classification_terminate.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../main.cpp
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../main.h
+CMakeFiles/pri_cpp.dir/main.cpp.o: ../mat.h
+CMakeFiles/pri_cpp.dir/main.cpp.o: ../matrix.h
+CMakeFiles/pri_cpp.dir/main.cpp.o: ../mex.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../ordering.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../rtwtypes.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../sigmoid.h
