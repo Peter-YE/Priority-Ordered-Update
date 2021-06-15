@@ -30,7 +30,7 @@ load('n-25.mat')
 
 time_classification0 = 0;
 
-for iteration = 1: 500
+for iteration = 1: 10
     for i = 1:5000
         tic
         [pred(i,1),h1,h2] = classification(Theta1, Theta2, X(i,:));
@@ -47,7 +47,7 @@ mask(ind) = 0;
 
 time_order = 0;
 time_classification = 0;
-for iteration = 1:500
+for iteration = 1:10
     tic
     [pred(1,1),h1,h2] = classification(Theta1, Theta2, X(1,:));
     time_classification = toc + time_classification;
@@ -61,7 +61,7 @@ end
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y(1:5000))) * 100);
 
 tic
-for iteration = 1:500
+for iteration = 1:10
     [pred(1,1),h1,h2] = classification(Theta1, Theta2, X(1,:));
     for i = 2:5000
         if mod(i,5) == 0
