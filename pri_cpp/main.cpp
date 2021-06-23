@@ -36,6 +36,7 @@
 // Include files
 #include <vector>
 #include <iostream>
+#include <fstream>
 #include "mat.h"
 #include "main.h"
 #include "classification.h"
@@ -123,30 +124,6 @@ static double argInit_real_T() {
     return 0.0;
 }
 
-//Matlab .mat file reader
-void matread(const char *file, std::vector<double> &v) {
-    // open MAT-file
-    MATFile *pmat = matOpen(file, "r");
-    if (pmat == NULL)
-        std::cout << "file not find";
-        return;
-
-    // extract the specified variable
-    mxArray *arr = matGetVariable(pmat, "LocalDouble");
-    if (arr != NULL && mxIsDouble(arr) && !mxIsEmpty(arr)) {
-        // copy data
-        mwSize num = mxGetNumberOfElements(arr);
-        double *pr = mxGetPr(arr);
-        if (pr != NULL) {
-            v.reserve(num); //is faster than resize :-)
-            v.assign(pr, pr + num);
-        }
-    }
-
-    // cleanup
-    mxDestroyArray(arr);
-    matClose(pmat);
-}
 
 static void main_classification() {
     static double dv[100250];
@@ -203,26 +180,50 @@ static void main_sigmoid() {
     sigmoid(z_data, z_size, g_data, g_size);
 }
 
-int main(int, char **) {
+int main(void) {
     // The initialize function is being called automatically from your entry-point
     // function. So, a call to initialize is not included here. Invoke the
     // entry-point functions.
     // You can call entry-point functions multiple times.
+    double *dataX;
+    dataX = (double*)malloc(sizeof(double)*2000000);
+    std::ifstream file;
+    file.open("../dataX.bin", std::ios_base::binary | std::ios_base::in);
+    file.read(reinterpret_cast<char*>(dataX),sizeof(double)* 2000000);
+    //file.read((char *)X,sizeof X);
+    file.close();
+
+    double *dataY;
+    dataY = (double*)malloc(sizeof(double)*5000);
+    file.open("../dataY.bin", std::ios_base::binary | std::ios_base::in);
+    file.read(reinterpret_cast<char*>(dataY),sizeof(double)* 5000);
+    file.close();
+
+    double *Theta1;
+    Theta1 = (double*)malloc(sizeof(double)*100250);
+    file.open("../n-250-1.bin", std::ios_base::binary | std::ios_base::in);
+    file.read(reinterpret_cast<char*>(Theta1),sizeof(double)* 100250);
+    file.close();
+
+    double *Theta2;
+    Theta2 = (double*)malloc(sizeof(double)*2510);
+    file.open("../n-250-2.bin", std::ios_base::binary | std::ios_base::in);
+    file.read(reinterpret_cast<char*>(Theta2),sizeof(double)* 2510);
+    file.close();
+    for (int i =0; i<10;++i){
+        std::cout<<Theta2[i]<<std::endl;
+    }
+
+
+
     main_classification();
     main_ordering();
     main_sigmoid();
     // Terminate the application.
     // You do not need to do this more than one time.
     classification_terminate();
-    MATFile *mfPtr;
-    const char *file = "data.mat";
-    mfPtr = matOpen(file,"r"); //code runs successfully without this line
-    return 0;
+    free(dataX);
 
-    std::vector<double> v;
-    matread("data.mat", v);
-    for (size_t i=0; i<v.size(); ++i)
-        std::cout << v[i] << std::endl;
     return 0;
 }
 

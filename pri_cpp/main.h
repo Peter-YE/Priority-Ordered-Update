@@ -42,7 +42,7 @@
 #include <cstdlib>
 
 // Function Declarations
-extern int main(int argc, char **argv);
+//extern int main(int argc, char **argv);
 
 #endif
 // End of code generation (main.h)

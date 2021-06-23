@@ -25,21 +25,25 @@
 
 int main(int argc, char **argv)
 {
-    MATFile *pmat;
-    const char* name=NULL;
-    mxArray *pa;
+    double *X;
+    X = (double*)malloc(sizeof(double)*2000000);
+    std::ifstream file ("dataX.bin", std::ios::in | std::ios::binary);
 
-    /* open mat file and read it's content */
-    pmat = matOpen("data.mat", "r");
-    if (pmat == NULL)
+    if (!file)
     {
-        printf("Error Opening File: \"%s\"\n", argv[1]);
-        return 0;
+        std::cout << "fail to open the file" <<std::endl;
+        return -1;//或者抛出异常。
+    }
+    else
+    {
+        std::cout << "open the file successfully" << std::endl;
+    }
+    file.open("dataX.bin", std::ios_base::binary | std::ios_base::in);
+    //file.read(reinterpret_cast<char*>(X),sizeof(double)* 2000000);
+    file.read((char *)X,sizeof X);
+    file.close();
+    for (int i = 0; i < 1000; i++){
+        std::cout << X[10] << std::endl;
     }
 
-    /* Read in each array. */
-    pa = matGetNextVariable(pmat, &name);
-
-    matClose(pmat);
-    return 0;
 }
