@@ -41,6 +41,8 @@
 #include <cstddef>
 #include <cstdlib>
 
+#include "tic.h"
+#include "toc.h"
 // Function Declarations
 //extern int main(int argc, char **argv);
 

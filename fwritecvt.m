@@ -17,8 +17,8 @@ datar = datar';
 fclose(hfile);
 
 load('n-250.mat');
-Theta1 = Theta1';
-Theta2 = Theta2';
+% Theta1 = Theta1';
+% Theta2 = Theta2';
 fileID = fopen('n-250-1.bin','w');
 fwrite(fileID,Theta1,'double');
 fclose(fileID);

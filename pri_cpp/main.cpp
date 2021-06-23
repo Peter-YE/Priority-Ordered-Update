@@ -210,12 +210,60 @@ int main(void) {
     file.open("../n-250-2.bin", std::ios_base::binary | std::ios_base::in);
     file.read(reinterpret_cast<char*>(Theta2),sizeof(double)* 2510);
     file.close();
-    for (int i =0; i<10;++i){
-        std::cout<<Theta2[i]<<std::endl;
+
+
+//Conventional approach
+    double p[5000];
+    double h1[250];
+    double h2[10];
+    double timeOrig;
+    for (int image = 0; image<5000; ++image){
+        coder::tic();
+        double tempX[400];
+        std::copy(dataX+image*400,dataX+400+image*400,tempX);
+        classification(Theta1,Theta2, tempX, &p[image], h1, h2);
+        timeOrig += coder::toc();
     }
+    double accuracy;
+    for (int i = 0; i< 5000;++i){
+        if (p[i] == dataY[i]){
+            ++accuracy;
+        }
+    }
+    std::cout<<"original accuracy = "<< accuracy/50 <<"%" <<std::endl;
+    std::cout<<"original time= "<< timeOrig <<std::endl;
 
+//Priority ordered
+    double time_order;
+    double time_classification;
+    double tempX[400];
+    std::copy(dataX,dataX+400,tempX);
+    classification(Theta1,Theta2, tempX, &p[1], h1, h2);
+    for (int image = 1; image < 5000; ++image){
+        double tempX[400];
+        std::copy(dataX+image*400,dataX+400+image*400,tempX);
+        double tempX_old[400];
+        std::copy(dataX+(image-1)*400,dataX+400+(image-1)*400,tempX_old);
+        double h1_old[250];
+        std::copy(h1,h1+250,h1_old);
+        double time1;
+        double time2;
+        boolean_T mask1[250];
+        ordering(Theta1, Theta2, tempX, tempX_old, h1_old, 200, &p[image], h1, mask1,
+                 &time1, &time2);
+        time_order += time1;
+        time_classification += time2;
 
-
+    }
+    accuracy = 0;
+    for (int i = 0; i< 5000;++i){
+        if (p[i] == dataY[i]){
+            ++accuracy;
+        }
+    }
+    std::cout<<"ordered accuracy = "<< accuracy/50 <<"%" <<std::endl;
+    std::cout<<"ordering time= "<< time_order <<std::endl;
+    std::cout<<"classification time= "<< time_classification <<std::endl;
     main_classification();
     main_ordering();
     main_sigmoid();

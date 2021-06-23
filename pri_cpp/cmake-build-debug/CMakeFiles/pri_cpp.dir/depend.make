@@ -47,7 +47,9 @@ CMakeFiles/pri_cpp.dir/main.cpp.o: ../mex.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../ordering.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../rtwtypes.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../sigmoid.h
+CMakeFiles/pri_cpp.dir/main.cpp.o: ../tic.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../tmwtypes.h
+CMakeFiles/pri_cpp.dir/main.cpp.o: ../toc.h
 
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../minOrMax.cpp
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../minOrMax.h
