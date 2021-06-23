@@ -127,7 +127,9 @@ static double argInit_real_T() {
 void matread(const char *file, std::vector<double> &v) {
     // open MAT-file
     MATFile *pmat = matOpen(file, "r");
-    if (pmat == NULL) return;
+    if (pmat == NULL)
+        std::cout << "file not find";
+        return;
 
     // extract the specified variable
     mxArray *arr = matGetVariable(pmat, "LocalDouble");
@@ -212,8 +214,15 @@ int main(int, char **) {
     // Terminate the application.
     // You do not need to do this more than one time.
     classification_terminate();
+    MATFile *mfPtr;
+    const char *file = "data.mat";
+    mfPtr = matOpen(file,"r"); //code runs successfully without this line
+    return 0;
+
     std::vector<double> v;
     matread("data.mat", v);
+    for (size_t i=0; i<v.size(); ++i)
+        std::cout << v[i] << std::endl;
     return 0;
 }
 

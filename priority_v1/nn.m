@@ -15,8 +15,19 @@ num_labels = 10;          % 10 labels, from 1 to 10
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
 
-load('data.mat');
+%load('data.mat');
+filename = 'dataX.bin';
+hfile = fopen(filename, 'r');
+X = fread(hfile, 'double');
+fclose(hfile);
+filename = 'dataY.bin';
+hfile = fopen(filename, 'r');
+X = reshape(X,[400,5000]);
+X = X';
+y = fread(hfile, 'double');
 m = size(X, 1);
+fclose(hfile);
+
 
 % Randomly select 100 data points to display
 sel = randperm(size(X, 1));

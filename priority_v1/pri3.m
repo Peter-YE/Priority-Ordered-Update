@@ -6,7 +6,7 @@ clear ; close all; clc
 
 %% Setup the parameters
 input_layer_size  = 400;  % 20x20 Input Images of Digits
-hidden_layer_size = 25;   % 25 hidden units
+hidden_layer_size = 250;   % 25 hidden units
 num_labels = 10;          % 10 labels, from 1 to 10   
 
 %% =========== Part 1: Loading and Visualizing Data =============
@@ -15,10 +15,33 @@ num_labels = 10;          % 10 labels, from 1 to 10
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
 
-load('data.mat');
+% load('data.mat');
+filename = 'dataX.bin';
+hfile = fopen(filename, 'r');
+X = fread(hfile, 'double');
+X = reshape(X,[400,5000]);
+X = X';
+fclose(hfile);
+filename = 'dataY.bin';
+hfile = fopen(filename, 'r');
+y = fread(hfile, 'double');
+fclose(hfile);
+
+filename = 'n-250-1.bin';
+hfile = fopen(filename, 'r');
+Theta1 = fread(hfile, 'double');
+Theta1 = reshape(Theta1,[401,250]);
+Theta1 = Theta1';
+fclose(hfile);
+filename = 'n-250-2.bin';
+hfile = fopen(filename, 'r');
+Theta2 = fread(hfile, 'double');
+Theta2 = reshape(Theta2,[251,10]);
+Theta2 = Theta2';
+fclose(hfile);
+
 m = size(X, 1);
 
-load('training.mat')
 
 
 %% ================= Part 6: Implement Classification =================
@@ -30,7 +53,7 @@ load('training.mat')
 
 time_classification0 = 0;
 
-for iteration = 1: 500
+for iteration = 1: 10
     for i = 1:5000
         tic
         [pred(i,1),h1,h2] = classification(Theta1, Theta2, X(i,:));
@@ -47,7 +70,7 @@ mask(ind) = 0;
 
 time_order = 0;
 time_classification = 0;
-for iteration = 1:500
+for iteration = 1:10
 
     [pred(1,1),h1,h2] = classification(Theta1, Theta2, X(1,:));
     
@@ -63,7 +86,7 @@ end
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y(1:5000))) * 100);
 
 tic
-for iteration = 1:500
+for iteration = 1:10
     [pred(1,1),h1,h2] = classification(Theta1, Theta2, X(1,:));
     for i = 2:5000
         if mod(i,5) == 0
