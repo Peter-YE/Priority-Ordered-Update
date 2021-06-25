@@ -15,7 +15,7 @@
 // Function Definitions
 namespace coder {
 namespace internal {
-void maximum(const double x[10], double *ex, int *idx)
+void maximum(const double x[layer2], double *ex, int *idx)
 {
   int k;
   if (!std::isnan(x[0])) {

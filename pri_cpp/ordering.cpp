@@ -21,21 +21,21 @@
 #include <cstring>
 
 // Function Definitions
-void ordering(const double Theta1[100250], const double Theta2[2510],
-              const double X_in[400], const double X_old[400],
-              const double h1_old[250], double k, double *p, double h1[250],
-              boolean_T mask1[250], double *time1, double *time2)
+void ordering(const double Theta1[(imageSize+1)*layer1], const double Theta2[(layer1+1)*layer2],
+              const double X_in[imageSize], const double X_old[imageSize],
+              const double h1_old[layer1], double k, double *p, double h1[layer1],
+              boolean_T mask1[layer1], double *time1, double *time2)
 {
-  static double b[100250];
-  static double x[100250];
-  double a[401];
-  double dv[251];
-  double b_data[250];
-  double mark1[250];
-  double b_x[10];
+  static double b[(imageSize+1)*layer1];
+  static double x[(imageSize+1)*layer1];
+  double a[imageSize+1];
+  double dv[layer1+1];
+  double b_data[layer1];
+  double mark1[layer1];
+  double b_x[layer2];
   double ex;
-  int itmp[250];
-  int iwork[250];
+  int itmp[layer1];
+  int iwork[layer1];
   int a__2;
   int b_i;
   int b_k;
@@ -43,35 +43,35 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
   int i2;
   int j;
   int qEnd;
-  unsigned char tmp_data[250];
+  unsigned char tmp_data[layer1];
   if (!isInitialized_classification) {
     classification_initialize();
   }
   //  =================== Function: ordering ===================
   coder::tic();
-  for (i = 0; i < 250; i++) {
-    for (a__2 = 0; a__2 < 401; a__2++) {
-      x[a__2 + 401 * i] = Theta1[i + 250 * a__2];
+  for (i = 0; i < layer1; i++) {
+    for (a__2 = 0; a__2 < imageSize+1; a__2++) {
+      x[a__2 + imageSize+1 * i] = Theta1[i + layer1 * a__2];
     }
   }
-  for (b_k = 0; b_k < 100250; b_k++) {
+  for (b_k = 0; b_k < (imageSize+1)*layer1; b_k++) {
     b[b_k] = std::abs(x[b_k]);
   }
   a[0] = 1.0;
-  for (i = 0; i < 400; i++) {
+  for (i = 0; i < imageSize; i++) {
     a[i + 1] = (X_in[i] - X_old[i] == 0.0);
   }
-  for (i = 0; i < 250; i++) {
+  for (i = 0; i < layer1; i++) {
     ex = 0.0;
-    for (a__2 = 0; a__2 < 401; a__2++) {
-      ex += a[a__2] * b[a__2 + 401 * i];
+    for (a__2 = 0; a__2 < imageSize+1; a__2++) {
+      ex += a[a__2] * b[a__2 + imageSize+1 * i];
     }
     mark1[i] = ex;
   }
-  if (k <= 250.0) {
+  if (k <= layer1*1.0) {
     b_k = static_cast<int>(k);
   } else {
-    b_k = 250;
+    b_k = layer1;
   }
   if (0 <= b_k - 1) {
     std::memset(&iwork[0], 0, b_k * sizeof(int));
@@ -90,18 +90,18 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
         }
       }
       b_i = 2;
-      while (b_i < 250) {
+      while (b_i < layer1) {
         i2 = b_i << 1;
         j = 1;
-        for (int pEnd{b_i + 1}; pEnd < 251; pEnd = qEnd + b_i) {
+        for (int pEnd{b_i + 1}; pEnd < layer1+1; pEnd = qEnd + b_i) {
           int b_p;
           int kEnd;
           int q;
           b_p = j;
           q = pEnd - 1;
           qEnd = j + i2;
-          if (qEnd > 251) {
-            qEnd = 251;
+          if (qEnd > layer1+1) {
+            qEnd = layer1+1;
           }
           a__2 = 0;
           kEnd = qEnd - j;
@@ -148,7 +148,7 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
                                          iwork);
       }
       i = b_k + 1;
-      for (j = i; j < 251; j++) {
+      for (j = i; j < layer1+1; j++) {
         a__2 = b_k;
         coder::internal::sortedInsertion(mark1[j - 1], j, b_data, &a__2, b_k,
                                          iwork);
@@ -156,7 +156,7 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
     }
   }
   // ind = sort(ind);
-  for (i = 0; i < 250; i++) {
+  for (i = 0; i < layer1; i++) {
     mask1[i] = true;
   }
   for (i = 0; i < b_k; i++) {
@@ -166,7 +166,7 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
   coder::tic();
   i2 = 0;
   a__2 = 0;
-  for (b_i = 0; b_i < 250; b_i++) {
+  for (b_i = 0; b_i < layer1; b_i++) {
     h1[b_i] = h1_old[b_i];
     if (mask1[b_i]) {
       i2++;
@@ -175,12 +175,12 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
     }
   }
   a[0] = 1.0;
-  std::copy(&X_in[0], &X_in[400], &a[1]);
+  std::copy(&X_in[0], &X_in[imageSize], &a[1]);
   for (j = 0; j < i2; j++) {
     ex = 0.0;
-    for (b_k = 0; b_k < 401; b_k++) {
+    for (b_k = 0; b_k < imageSize+1; b_k++) {
       i = b_k * i2 + j;
-      ex += a[b_k] * Theta1[(tmp_data[i % i2] + 250 * (i / i2)) - 1];
+      ex += a[b_k] * Theta1[(tmp_data[i % i2] + layer1 * (i / i2)) - 1];
     }
     b_data[j] = ex;
   }
@@ -202,17 +202,17 @@ void ordering(const double Theta1[100250], const double Theta2[2510],
   // SIGMOID Compute sigmoid functoon
   //    J = SIGMOID(z) computes the sigmoid of z.
   dv[0] = 1.0;
-  for (b_i = 0; b_i < 250; b_i++) {
+  for (b_i = 0; b_i < layer1; b_i++) {
     if (mask1[b_i]) {
       h1[b_i] = b_data[a__2];
       a__2++;
     }
     dv[b_i + 1] = h1[b_i];
   }
-  for (b_k = 0; b_k < 10; b_k++) {
+  for (b_k = 0; b_k < layer2; b_k++) {
     ex = 0.0;
-    for (i = 0; i < 251; i++) {
-      ex += dv[i] * Theta2[b_k + 10 * i];
+    for (i = 0; i < layer1+1; i++) {
+      ex += dv[i] * Theta2[b_k + layer2 * i];
     }
     b_x[b_k] = 1.0 / (std::exp(-ex) + 1.0);
   }

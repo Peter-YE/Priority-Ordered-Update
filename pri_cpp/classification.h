@@ -15,11 +15,12 @@
 #include "rtwtypes.h"
 #include <cstddef>
 #include <cstdlib>
+#include "main.h"
 
 // Function Declarations
-extern void classification(const double Theta1[100250],
-                           const double Theta2[2510], const double X[400],
-                           double *p, double h1[250], double h2[10]);
+extern void classification(const double Theta1[(imageSize+1)*layer1],
+                           const double Theta2[(layer1+1)*layer2], const double X[imageSize],
+                           double *p, double h1[layer1], double h2[layer2]);
 
 #endif
 // End of code generation (classification.h)

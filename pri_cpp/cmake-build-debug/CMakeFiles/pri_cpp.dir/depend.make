@@ -14,9 +14,12 @@ CMakeFiles/pri_cpp.dir/classification.cpp.o: ../classification.cpp
 CMakeFiles/pri_cpp.dir/classification.cpp.o: ../classification.h
 CMakeFiles/pri_cpp.dir/classification.cpp.o: ../classification_data.h
 CMakeFiles/pri_cpp.dir/classification.cpp.o: ../classification_initialize.h
+CMakeFiles/pri_cpp.dir/classification.cpp.o: ../main.h
 CMakeFiles/pri_cpp.dir/classification.cpp.o: ../minOrMax.h
 CMakeFiles/pri_cpp.dir/classification.cpp.o: ../rtwtypes.h
+CMakeFiles/pri_cpp.dir/classification.cpp.o: ../tic.h
 CMakeFiles/pri_cpp.dir/classification.cpp.o: ../tmwtypes.h
+CMakeFiles/pri_cpp.dir/classification.cpp.o: ../toc.h
 
 CMakeFiles/pri_cpp.dir/classification_data.cpp.o: ../classification_data.cpp
 CMakeFiles/pri_cpp.dir/classification_data.cpp.o: ../classification_data.h
@@ -37,27 +40,29 @@ CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../classification_termina
 CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../rtwtypes.h
 CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../tmwtypes.h
 
+CMakeFiles/pri_cpp.dir/constants.cpp.o: ../constants.cpp
+
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../classification.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../classification_terminate.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../main.cpp
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../main.h
-CMakeFiles/pri_cpp.dir/main.cpp.o: ../mat.h
-CMakeFiles/pri_cpp.dir/main.cpp.o: ../matrix.h
-CMakeFiles/pri_cpp.dir/main.cpp.o: ../mex.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../ordering.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../rtwtypes.h
-CMakeFiles/pri_cpp.dir/main.cpp.o: ../sigmoid.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../tic.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../tmwtypes.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../toc.h
 
+CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../main.h
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../minOrMax.cpp
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../minOrMax.h
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../rtwtypes.h
+CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../tic.h
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../tmwtypes.h
+CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../toc.h
 
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../classification_data.h
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../classification_initialize.h
+CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../main.h
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../minOrMax.h
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../ordering.cpp
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../ordering.h

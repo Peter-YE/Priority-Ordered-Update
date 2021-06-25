@@ -38,7 +38,7 @@ end
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y(1:5000))) * 100);
 
 ind = [1,9];
-mask = logical(ones(1,25));
+mask = logical(ones(1,250));
 mask(ind) = 0;
 
 time_order = 0;

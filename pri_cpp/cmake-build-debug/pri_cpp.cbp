@@ -119,19 +119,13 @@
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/coder_posix_time.h">
 			<Option target="pri_cpp"/>
 		</Unit>
+		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/constants.cpp">
+			<Option target="pri_cpp"/>
+		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/main.cpp">
 			<Option target="pri_cpp"/>
 		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/main.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/mat.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/matrix.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/mex.h">
 			<Option target="pri_cpp"/>
 		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp/minOrMax.cpp">

@@ -15,11 +15,12 @@
 #include "rtwtypes.h"
 #include <cstddef>
 #include <cstdlib>
+#include "main.h"
 
 // Function Declarations
 namespace coder {
 namespace internal {
-void maximum(const double x[10], double *ex, int *idx);
+void maximum(const double x[layer2], double *ex, int *idx);
 
 }
 } // namespace coder

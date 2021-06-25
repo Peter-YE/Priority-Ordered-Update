@@ -47,4 +47,18 @@
 //extern int main(int argc, char **argv);
 
 #endif
+
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+const int imageSize = 400;
+const int imageNum = 5000;
+const int layer1 = 250;
+const int layer2 = 10;
+//extern const int imageSize;
+//extern const int imageNum;
+//extern const int layer1;
+//extern const int layer2;
+
+#endif
 // End of code generation (main.h)
+
