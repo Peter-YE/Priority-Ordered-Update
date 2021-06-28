@@ -17,10 +17,10 @@
 #include <cstdlib>
 
 // Function Declarations
-extern void ordering(const double Theta1[100250], const double Theta2[2510],
+extern void ordering(const double Theta1[120300], const double Theta2[3010],
                      const double X_in[400], const double X_old[400],
-                     const double h1_old[250], double k, double *p,
-                     double h1[250], boolean_T mask1[250], double *time1,
+                     const double h1_old[300], double k, double *p,
+                     double h1[300], boolean_T mask1[300], double *time1,
                      double *time2);
 
 #endif

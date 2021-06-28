@@ -52,8 +52,9 @@
 #define CONSTANTS_H
 const int imageSize = 400;
 const int imageNum = 5000;
-const int layer1 = 250;
+const int layer1 = 25;
 const int layer2 = 10;
+const double ratio = 1;
 //extern const int imageSize;
 //extern const int imageNum;
 //extern const int layer1;

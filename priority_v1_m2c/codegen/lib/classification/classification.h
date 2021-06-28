@@ -17,9 +17,9 @@
 #include <cstdlib>
 
 // Function Declarations
-extern void classification(const double Theta1[100250],
-                           const double Theta2[2510], const double X[400],
-                           double *p, double h1[250], double h2[10]);
+extern void classification(const double Theta1[120300],
+                           const double Theta2[3010], const double X[400],
+                           double *p, double h1[300], double h2[10]);
 
 #endif
 // End of code generation (classification.h)

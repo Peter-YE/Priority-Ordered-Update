@@ -1,37 +1,9 @@
 //
-// Academic License - for use in teaching, academic research, and meeting
-// course requirements at degree granting institutions only.  Not for
-// government, commercial, or other organizational use.
-//
 // main.cpp
 //
 // Code generation for function 'main'
 //
 
-/*************************************************************************/
-/* This automatically generated example C++ main file shows how to call  */
-/* entry-point functions that MATLAB Coder generated. You must customize */
-/* this file for your application. Do not modify this file directly.     */
-/* Instead, make a copy of this file, modify it, and integrate it into   */
-/* your development environment.                                         */
-/*                                                                       */
-/* This file initializes entry-point function arguments to a default     */
-/* size and value before calling the entry-point functions. It does      */
-/* not store or use any values returned from the entry-point functions.  */
-/* If necessary, it does pre-allocate memory for returned values.        */
-/* You can use this file as a starting point for a main function that    */
-/* you can deploy in your application.                                   */
-/*                                                                       */
-/* After you copy the file, and before you deploy it, you must make the  */
-/* following changes:                                                    */
-/* * For variable-size function arguments, change the example sizes to   */
-/* the sizes that your application requires.                             */
-/* * Change the example values of function arguments to the values that  */
-/* your application requires.                                            */
-/* * If the entry-point functions return values, store these values or   */
-/* otherwise use them as required by your application.                   */
-/*                                                                       */
-/*************************************************************************/
 
 // Include files
 #include <vector>
@@ -47,7 +19,7 @@
 // Matlab data structures
 
 int main(void) {
-
+    int numK = ratio*layer1;
     // The initialize function is being called automatically from your entry-point
     // function. So, a call to initialize is not included here. Invoke the
     // entry-point functions.
@@ -55,25 +27,25 @@ int main(void) {
     double *dataX;
     dataX = (double*)malloc(sizeof(double)*imageSize*imageNum);
     std::ifstream file;
-    file.open("../dataX.bin", std::ios_base::binary | std::ios_base::in);
+    file.open("../data/dataX.bin", std::ios_base::binary | std::ios_base::in);
     file.read(reinterpret_cast<char*>(dataX),sizeof(double)* imageSize*imageNum);
     file.close();
 
     double *dataY;
     dataY = (double*)malloc(sizeof(double)*imageNum);
-    file.open("../dataY.bin", std::ios_base::binary | std::ios_base::in);
+    file.open("../data/dataY.bin", std::ios_base::binary | std::ios_base::in);
     file.read(reinterpret_cast<char*>(dataY),sizeof(double)* imageNum);
     file.close();
 
     double *Theta1;
     Theta1 = (double*)malloc(sizeof(double)*(imageSize+1)*layer1);
-    file.open("../n-250-1.bin", std::ios_base::binary | std::ios_base::in);
+    file.open("../data/n-"+std::to_string(layer1)+"-1.bin", std::ios_base::binary | std::ios_base::in);
     file.read(reinterpret_cast<char*>(Theta1),sizeof(double)*(imageSize+1)*layer1);
     file.close();
 
     double *Theta2;
     Theta2 = (double*)malloc(sizeof(double)*(layer1+1)*layer2);
-    file.open("../n-250-2.bin", std::ios_base::binary | std::ios_base::in);
+    file.open("../data/n-"+std::to_string(layer1)+"-2.bin", std::ios_base::binary | std::ios_base::in);
     file.read(reinterpret_cast<char*>(Theta2),sizeof(double)* (layer1+1)*layer2);
     file.close();
 
@@ -115,7 +87,7 @@ int main(void) {
         double time1;
         double time2;
         boolean_T mask1[layer1];
-        ordering(Theta1, Theta2, tempX, tempX_old, h1_old, 200, &p[image], h1, mask1,
+        ordering(Theta1, Theta2, tempX, tempX_old, h1_old, numK, &p[image], h1, mask1,
                  &time1, &time2);
         time_order += time1;
         time_classification += time2;

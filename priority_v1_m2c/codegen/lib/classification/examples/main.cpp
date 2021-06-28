@@ -41,15 +41,15 @@
 #include "sigmoid.h"
 
 // Function Declarations
-static void argInit_10x251_real_T(double result[2510]);
+static void argInit_10x301_real_T(double result[3010]);
 
-static void argInit_1x250_real_T(double result[250]);
+static void argInit_1x300_real_T(double result[300]);
 
 static void argInit_1x400_real_T(double result[400]);
 
-static void argInit_1xd250_real_T(double result_data[], int result_size[2]);
+static void argInit_1xd300_real_T(double result_data[], int result_size[2]);
 
-static void argInit_250x401_real_T(double result[100250]);
+static void argInit_300x401_real_T(double result[120300]);
 
 static double argInit_real_T();
 
@@ -60,11 +60,11 @@ static void main_ordering();
 static void main_sigmoid();
 
 // Function Definitions
-static void argInit_10x251_real_T(double result[2510])
+static void argInit_10x301_real_T(double result[3010])
 {
   // Loop over the array to initialize each element.
   for (int idx0{0}; idx0 < 10; idx0++) {
-    for (int idx1{0}; idx1 < 251; idx1++) {
+    for (int idx1{0}; idx1 < 301; idx1++) {
       // Set the value of the array element.
       // Change this value to the value that the application requires.
       result[idx0 + 10 * idx1] = argInit_real_T();
@@ -72,10 +72,10 @@ static void argInit_10x251_real_T(double result[2510])
   }
 }
 
-static void argInit_1x250_real_T(double result[250])
+static void argInit_1x300_real_T(double result[300])
 {
   // Loop over the array to initialize each element.
-  for (int idx1{0}; idx1 < 250; idx1++) {
+  for (int idx1{0}; idx1 < 300; idx1++) {
     // Set the value of the array element.
     // Change this value to the value that the application requires.
     result[idx1] = argInit_real_T();
@@ -92,7 +92,7 @@ static void argInit_1x400_real_T(double result[400])
   }
 }
 
-static void argInit_1xd250_real_T(double result_data[], int result_size[2])
+static void argInit_1xd300_real_T(double result_data[], int result_size[2])
 {
   // Set the size of the array.
   // Change this size to the value that the application requires.
@@ -106,14 +106,14 @@ static void argInit_1xd250_real_T(double result_data[], int result_size[2])
   }
 }
 
-static void argInit_250x401_real_T(double result[100250])
+static void argInit_300x401_real_T(double result[120300])
 {
   // Loop over the array to initialize each element.
-  for (int idx0{0}; idx0 < 250; idx0++) {
+  for (int idx0{0}; idx0 < 300; idx0++) {
     for (int idx1{0}; idx1 < 401; idx1++) {
       // Set the value of the array element.
       // Change this value to the value that the application requires.
-      result[idx0 + 250 * idx1] = argInit_real_T();
+      result[idx0 + 300 * idx1] = argInit_real_T();
     }
   }
 }
@@ -125,10 +125,10 @@ static double argInit_real_T()
 
 static void main_classification()
 {
-  static double dv[100250];
-  double dv1[2510];
+  static double dv[120300];
+  double dv1[3010];
   double dv2[400];
-  double h1[250];
+  double h1[300];
   double h2[10];
   double p;
   // Initialize function 'classification' input arguments.
@@ -136,23 +136,23 @@ static void main_classification()
   // Initialize function input argument 'Theta2'.
   // Initialize function input argument 'X'.
   // Call the entry-point 'classification'.
-  argInit_250x401_real_T(dv);
-  argInit_10x251_real_T(dv1);
+  argInit_300x401_real_T(dv);
+  argInit_10x301_real_T(dv1);
   argInit_1x400_real_T(dv2);
   classification(dv, dv1, dv2, &p, h1, h2);
 }
 
 static void main_ordering()
 {
-  static double dv[100250];
-  double dv1[2510];
+  static double dv[120300];
+  double dv1[3010];
   double X_in_tmp[400];
-  double dv2[250];
-  double h1[250];
+  double dv2[300];
+  double h1[300];
   double p;
   double time1;
   double time2;
-  boolean_T mask1[250];
+  boolean_T mask1[300];
   // Initialize function 'ordering' input arguments.
   // Initialize function input argument 'Theta1'.
   // Initialize function input argument 'Theta2'.
@@ -161,22 +161,22 @@ static void main_ordering()
   // Initialize function input argument 'X_old'.
   // Initialize function input argument 'h1_old'.
   // Call the entry-point 'ordering'.
-  argInit_250x401_real_T(dv);
-  argInit_10x251_real_T(dv1);
-  argInit_1x250_real_T(dv2);
+  argInit_300x401_real_T(dv);
+  argInit_10x301_real_T(dv1);
+  argInit_1x300_real_T(dv2);
   ordering(dv, dv1, X_in_tmp, X_in_tmp, dv2, argInit_real_T(), &p, h1, mask1,
            &time1, &time2);
 }
 
 static void main_sigmoid()
 {
-  double g_data[250];
-  double z_data[250];
+  double g_data[300];
+  double z_data[300];
   int g_size[2];
   int z_size[2];
   // Initialize function 'sigmoid' input arguments.
   // Initialize function input argument 'z'.
-  argInit_1xd250_real_T(z_data, z_size);
+  argInit_1xd300_real_T(z_data, z_size);
   // Call the entry-point 'sigmoid'.
   sigmoid(z_data, z_size, g_data, g_size);
 }

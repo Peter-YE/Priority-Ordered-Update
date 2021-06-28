@@ -22,8 +22,8 @@ extern emlrtCTX emlrtRootTLSGlobal;
 extern emlrtContext emlrtContextGlobal;
 
 // Function Declarations
-void classification(real_T Theta1[100250], real_T Theta2[2510], real_T X[400],
-                    real_T *p, real_T h1[250], real_T h2[10]);
+void classification(real_T Theta1[120300], real_T Theta2[3010], real_T X[400],
+                    real_T *p, real_T h1[300], real_T h2[10]);
 
 void classification_api(const mxArray *const prhs[3], int32_T nlhs,
                         const mxArray *plhs[3]);
@@ -38,9 +38,9 @@ void classification_xil_shutdown();
 
 void classification_xil_terminate();
 
-void ordering(real_T Theta1[100250], real_T Theta2[2510], real_T X_in[400],
-              real_T X_old[400], real_T h1_old[250], real_T k, real_T *p,
-              real_T h1[250], boolean_T mask1[250], real_T *time1,
+void ordering(real_T Theta1[120300], real_T Theta2[3010], real_T X_in[400],
+              real_T X_old[400], real_T h1_old[300], real_T k, real_T *p,
+              real_T h1[300], boolean_T mask1[300], real_T *time1,
               real_T *time2);
 
 void ordering_api(const mxArray *const prhs[6], int32_T nlhs,

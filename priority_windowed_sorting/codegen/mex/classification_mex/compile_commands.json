@@ -1,0 +1,98 @@
+[
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  classification_mex_data.cpp -o build/maci64/classification_mex_data.o",
+    "file": "classification_mex_data.cpp",
+    "output": "build/maci64/classification_mex_data.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  rt_nonfinite.cpp -o build/maci64/rt_nonfinite.o",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/maci64/rt_nonfinite.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  classification_mex_initialize.cpp -o build/maci64/classification_mex_initialize.o",
+    "file": "classification_mex_initialize.cpp",
+    "output": "build/maci64/classification_mex_initialize.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  classification_mex_terminate.cpp -o build/maci64/classification_mex_terminate.o",
+    "file": "classification_mex_terminate.cpp",
+    "output": "build/maci64/classification_mex_terminate.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  classification.cpp -o build/maci64/classification.o",
+    "file": "classification.cpp",
+    "output": "build/maci64/classification.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  mtimes.cpp -o build/maci64/mtimes.o",
+    "file": "mtimes.cpp",
+    "output": "build/maci64/mtimes.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  ordering.cpp -o build/maci64/ordering.o",
+    "file": "ordering.cpp",
+    "output": "build/maci64/ordering.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  tic.cpp -o build/maci64/tic.o",
+    "file": "tic.cpp",
+    "output": "build/maci64/tic.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  timeKeeper.cpp -o build/maci64/timeKeeper.o",
+    "file": "timeKeeper.cpp",
+    "output": "build/maci64/timeKeeper.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  toc.cpp -o build/maci64/toc.o",
+    "file": "toc.cpp",
+    "output": "build/maci64/toc.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  sigmoid.cpp -o build/maci64/sigmoid.o",
+    "file": "sigmoid.cpp",
+    "output": "build/maci64/sigmoid.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_classification_mex_api.cpp -o build/maci64/_coder_classification_mex_api.o",
+    "file": "interface/_coder_classification_mex_api.cpp",
+    "output": "build/maci64/_coder_classification_mex_api.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_classification_mex_mex.cpp -o build/maci64/_coder_classification_mex_mex.o",
+    "file": "interface/_coder_classification_mex_mex.cpp",
+    "output": "build/maci64/_coder_classification_mex_mex.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  sortedInsertion.cpp -o build/maci64/sortedInsertion.o",
+    "file": "sortedInsertion.cpp",
+    "output": "build/maci64/sortedInsertion.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_classification_mex_info.cpp -o build/maci64/_coder_classification_mex_info.o",
+    "file": "interface/_coder_classification_mex_info.cpp",
+    "output": "build/maci64/_coder_classification_mex_info.o"
+  },
+  {
+    "directory": "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c/codegen/mex/classification_mex",
+    "command": "/usr/bin/xcrun -sdk macosx11.3 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/priority_v1_m2c\" -I \"./interface\" -I \"/Applications/MATLAB_R2021a.app/extern/include\" -I \".\" -DMODEL=classification_mex -DMW_NEEDS_VERSION_H -c  /Applications/MATLAB_R2021a.app/extern/version/cpp_mexapi_version.cpp -o build/maci64/cpp_mexapi_version.o",
+    "file": "/Applications/MATLAB_R2021a.app/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/maci64/cpp_mexapi_version.o"
+  }
+]

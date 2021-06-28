@@ -5,7 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o"
   "CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o"
   "CMakeFiles/pri_cpp.dir/coder_posix_time.c.o"
-  "CMakeFiles/pri_cpp.dir/constants.cpp.o"
   "CMakeFiles/pri_cpp.dir/main.cpp.o"
   "CMakeFiles/pri_cpp.dir/minOrMax.cpp.o"
   "CMakeFiles/pri_cpp.dir/ordering.cpp.o"

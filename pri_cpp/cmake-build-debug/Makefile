@@ -305,33 +305,6 @@ coder_posix_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/coder_posix_time.c.s
 .PHONY : coder_posix_time.c.s
 
-constants.o: constants.cpp.o
-
-.PHONY : constants.o
-
-# target to build an object file
-constants.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/constants.cpp.o
-.PHONY : constants.cpp.o
-
-constants.i: constants.cpp.i
-
-.PHONY : constants.i
-
-# target to preprocess a source file
-constants.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/constants.cpp.i
-.PHONY : constants.cpp.i
-
-constants.s: constants.cpp.s
-
-.PHONY : constants.s
-
-# target to generate assembly for a file
-constants.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/constants.cpp.s
-.PHONY : constants.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -575,9 +548,6 @@ help:
 	@echo "... coder_posix_time.o"
 	@echo "... coder_posix_time.i"
 	@echo "... coder_posix_time.s"
-	@echo "... constants.o"
-	@echo "... constants.i"
-	@echo "... constants.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

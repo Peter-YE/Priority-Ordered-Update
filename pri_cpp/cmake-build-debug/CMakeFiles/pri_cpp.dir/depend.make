@@ -40,8 +40,6 @@ CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../classification_termina
 CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../rtwtypes.h
 CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../tmwtypes.h
 
-CMakeFiles/pri_cpp.dir/constants.cpp.o: ../constants.cpp
-
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../classification.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../classification_terminate.h
 CMakeFiles/pri_cpp.dir/main.cpp.o: ../main.cpp
