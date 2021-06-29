@@ -4,11 +4,11 @@ clear ; close all; clc
 
 %% Setup the parameters
 input_layer_size  = 400;  % 20x20 Input Images of Digits
-hidden_layer_size = 300;   % 25 hidden units
+hidden_layer_size = 200;   % 25 hidden units
 num_labels = 10;          % 10 labels, from 1 to 10 
 
 %k = 4*round(hidden_layer_size/5);
-k=0;
+k=100;
 
 %% =========== Part 1: Loading and Visualizing Data =============
 
@@ -19,7 +19,7 @@ fprintf('Loading and Visualizing Data ...\n')
 load('data.mat');
 m = size(X, 1);
 
-load('n-300.mat')
+load('n-200.mat')
 
 
 %% ================= Part 6: Implement Classification =================
@@ -39,7 +39,7 @@ end
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y(1:5000))) * 100);
 
 ind = [1,9];
-mask = logical(ones(1,300));
+mask = logical(ones(1,200));
 mask(ind) = 0;
 
 time_order = 0;
