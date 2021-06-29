@@ -56,20 +56,6 @@ cstdlib
 
 /Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/coder_posix_time.h
 
-/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/main.cpp
-vector
--
-iostream
--
-fstream
--
-main.h
-/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/main.h
-classification.h
-/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification.h
-ordering.h
-/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/ordering.h
-
 /Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/main.h
 rtwtypes.h
 /Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
@@ -86,12 +72,6 @@ toc.h
 iostream
 -
 algorithm
--
-
-/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minOrMax.cpp
-minOrMax.h
-/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minOrMax.h
-cmath
 -
 
 /Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minOrMax.h
