@@ -224,60 +224,6 @@ classification_data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_data.cpp.s
 .PHONY : classification_data.cpp.s
 
-classification_initialize.o: classification_initialize.cpp.o
-
-.PHONY : classification_initialize.o
-
-# target to build an object file
-classification_initialize.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o
-.PHONY : classification_initialize.cpp.o
-
-classification_initialize.i: classification_initialize.cpp.i
-
-.PHONY : classification_initialize.i
-
-# target to preprocess a source file
-classification_initialize.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_initialize.cpp.i
-.PHONY : classification_initialize.cpp.i
-
-classification_initialize.s: classification_initialize.cpp.s
-
-.PHONY : classification_initialize.s
-
-# target to generate assembly for a file
-classification_initialize.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_initialize.cpp.s
-.PHONY : classification_initialize.cpp.s
-
-classification_terminate.o: classification_terminate.cpp.o
-
-.PHONY : classification_terminate.o
-
-# target to build an object file
-classification_terminate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o
-.PHONY : classification_terminate.cpp.o
-
-classification_terminate.i: classification_terminate.cpp.i
-
-.PHONY : classification_terminate.i
-
-# target to preprocess a source file
-classification_terminate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_terminate.cpp.i
-.PHONY : classification_terminate.cpp.i
-
-classification_terminate.s: classification_terminate.cpp.s
-
-.PHONY : classification_terminate.s
-
-# target to generate assembly for a file
-classification_terminate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/classification_terminate.cpp.s
-.PHONY : classification_terminate.cpp.s
-
 coder_posix_time.o: coder_posix_time.c.o
 
 .PHONY : coder_posix_time.o
@@ -413,60 +359,6 @@ ordering.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/ordering.cpp.s
 .PHONY : ordering.cpp.s
 
-sigmoid.o: sigmoid.cpp.o
-
-.PHONY : sigmoid.o
-
-# target to build an object file
-sigmoid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/sigmoid.cpp.o
-.PHONY : sigmoid.cpp.o
-
-sigmoid.i: sigmoid.cpp.i
-
-.PHONY : sigmoid.i
-
-# target to preprocess a source file
-sigmoid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/sigmoid.cpp.i
-.PHONY : sigmoid.cpp.i
-
-sigmoid.s: sigmoid.cpp.s
-
-.PHONY : sigmoid.s
-
-# target to generate assembly for a file
-sigmoid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/sigmoid.cpp.s
-.PHONY : sigmoid.cpp.s
-
-sortedInsertion.o: sortedInsertion.cpp.o
-
-.PHONY : sortedInsertion.o
-
-# target to build an object file
-sortedInsertion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o
-.PHONY : sortedInsertion.cpp.o
-
-sortedInsertion.i: sortedInsertion.cpp.i
-
-.PHONY : sortedInsertion.i
-
-# target to preprocess a source file
-sortedInsertion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.i
-.PHONY : sortedInsertion.cpp.i
-
-sortedInsertion.s: sortedInsertion.cpp.s
-
-.PHONY : sortedInsertion.s
-
-# target to generate assembly for a file
-sortedInsertion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.s
-.PHONY : sortedInsertion.cpp.s
-
 tic.o: tic.cpp.o
 
 .PHONY : tic.o
@@ -566,12 +458,6 @@ help:
 	@echo "... classification_data.o"
 	@echo "... classification_data.i"
 	@echo "... classification_data.s"
-	@echo "... classification_initialize.o"
-	@echo "... classification_initialize.i"
-	@echo "... classification_initialize.s"
-	@echo "... classification_terminate.o"
-	@echo "... classification_terminate.i"
-	@echo "... classification_terminate.s"
 	@echo "... coder_posix_time.o"
 	@echo "... coder_posix_time.i"
 	@echo "... coder_posix_time.s"
@@ -587,12 +473,6 @@ help:
 	@echo "... ordering.o"
 	@echo "... ordering.i"
 	@echo "... ordering.s"
-	@echo "... sigmoid.o"
-	@echo "... sigmoid.i"
-	@echo "... sigmoid.s"
-	@echo "... sortedInsertion.o"
-	@echo "... sortedInsertion.i"
-	@echo "... sortedInsertion.s"
 	@echo "... tic.o"
 	@echo "... tic.i"
 	@echo "... tic.s"

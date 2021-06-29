@@ -11,7 +11,6 @@
 // Include files
 #include "classification.h"
 #include "classification_data.h"
-#include "classification_initialize.h"
 #include "minOrMax.h"
 #include <algorithm>
 #include <cmath>
@@ -26,9 +25,6 @@ void classification(const double Theta1[(imageSize+1)*layer1], const double Thet
   double ex;
   int i;
   int k;
-  if (!isInitialized_classification) {
-    classification_initialize();
-  }
   //  ================ Function: Classification ================
   // PREDICT Predict the label of an input given a trained neural network
   //    p = PREDICT(Theta1, Theta2, X) outputs the predicted label of X given

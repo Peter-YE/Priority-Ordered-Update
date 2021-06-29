@@ -116,35 +116,9 @@ CMakeFiles/pri_cpp.dir/classification_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pri_cpp.dir/classification_data.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_data.cpp" -o CMakeFiles/pri_cpp.dir/classification_data.cpp.s
 
-CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
-CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o: ../classification_initialize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.cpp"
-
-CMakeFiles/pri_cpp.dir/classification_initialize.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pri_cpp.dir/classification_initialize.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.cpp" > CMakeFiles/pri_cpp.dir/classification_initialize.cpp.i
-
-CMakeFiles/pri_cpp.dir/classification_initialize.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pri_cpp.dir/classification_initialize.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.cpp" -o CMakeFiles/pri_cpp.dir/classification_initialize.cpp.s
-
-CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
-CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o: ../classification_terminate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_terminate.cpp"
-
-CMakeFiles/pri_cpp.dir/classification_terminate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pri_cpp.dir/classification_terminate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_terminate.cpp" > CMakeFiles/pri_cpp.dir/classification_terminate.cpp.i
-
-CMakeFiles/pri_cpp.dir/classification_terminate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pri_cpp.dir/classification_terminate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_terminate.cpp" -o CMakeFiles/pri_cpp.dir/classification_terminate.cpp.s
-
 CMakeFiles/pri_cpp.dir/coder_posix_time.c.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/coder_posix_time.c.o: ../coder_posix_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pri_cpp.dir/coder_posix_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pri_cpp.dir/coder_posix_time.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pri_cpp.dir/coder_posix_time.c.o   -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/coder_posix_time.c"
 
 CMakeFiles/pri_cpp.dir/coder_posix_time.c.i: cmake_force
@@ -157,7 +131,7 @@ CMakeFiles/pri_cpp.dir/coder_posix_time.c.s: cmake_force
 
 CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o: ../CoderTimeAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/CoderTimeAPI.cpp"
 
 CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.i: cmake_force
@@ -170,7 +144,7 @@ CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.s: cmake_force
 
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.o: ../minOrMax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pri_cpp.dir/minOrMax.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pri_cpp.dir/minOrMax.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/minOrMax.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minOrMax.cpp"
 
 CMakeFiles/pri_cpp.dir/minOrMax.cpp.i: cmake_force
@@ -183,7 +157,7 @@ CMakeFiles/pri_cpp.dir/minOrMax.cpp.s: cmake_force
 
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/ordering.cpp.o: ../ordering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pri_cpp.dir/ordering.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pri_cpp.dir/ordering.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/ordering.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/ordering.cpp"
 
 CMakeFiles/pri_cpp.dir/ordering.cpp.i: cmake_force
@@ -194,35 +168,9 @@ CMakeFiles/pri_cpp.dir/ordering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pri_cpp.dir/ordering.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/ordering.cpp" -o CMakeFiles/pri_cpp.dir/ordering.cpp.s
 
-CMakeFiles/pri_cpp.dir/sigmoid.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
-CMakeFiles/pri_cpp.dir/sigmoid.cpp.o: ../sigmoid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pri_cpp.dir/sigmoid.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/sigmoid.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sigmoid.cpp"
-
-CMakeFiles/pri_cpp.dir/sigmoid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pri_cpp.dir/sigmoid.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sigmoid.cpp" > CMakeFiles/pri_cpp.dir/sigmoid.cpp.i
-
-CMakeFiles/pri_cpp.dir/sigmoid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pri_cpp.dir/sigmoid.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sigmoid.cpp" -o CMakeFiles/pri_cpp.dir/sigmoid.cpp.s
-
-CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
-CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o: ../sortedInsertion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sortedInsertion.cpp"
-
-CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sortedInsertion.cpp" > CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.i
-
-CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sortedInsertion.cpp" -o CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.s
-
 CMakeFiles/pri_cpp.dir/tic.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/tic.cpp.o: ../tic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pri_cpp.dir/tic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pri_cpp.dir/tic.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/tic.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tic.cpp"
 
 CMakeFiles/pri_cpp.dir/tic.cpp.i: cmake_force
@@ -235,7 +183,7 @@ CMakeFiles/pri_cpp.dir/tic.cpp.s: cmake_force
 
 CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o: ../timeKeeper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/timeKeeper.cpp"
 
 CMakeFiles/pri_cpp.dir/timeKeeper.cpp.i: cmake_force
@@ -248,7 +196,7 @@ CMakeFiles/pri_cpp.dir/timeKeeper.cpp.s: cmake_force
 
 CMakeFiles/pri_cpp.dir/toc.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/toc.cpp.o: ../toc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pri_cpp.dir/toc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pri_cpp.dir/toc.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/toc.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/toc.cpp"
 
 CMakeFiles/pri_cpp.dir/toc.cpp.i: cmake_force
@@ -261,7 +209,7 @@ CMakeFiles/pri_cpp.dir/toc.cpp.s: cmake_force
 
 CMakeFiles/pri_cpp.dir/minHeap.cpp.o: CMakeFiles/pri_cpp.dir/flags.make
 CMakeFiles/pri_cpp.dir/minHeap.cpp.o: ../minHeap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pri_cpp.dir/minHeap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pri_cpp.dir/minHeap.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pri_cpp.dir/minHeap.cpp.o -c "/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minHeap.cpp"
 
 CMakeFiles/pri_cpp.dir/minHeap.cpp.i: cmake_force
@@ -277,14 +225,10 @@ pri_cpp_OBJECTS = \
 "CMakeFiles/pri_cpp.dir/main.cpp.o" \
 "CMakeFiles/pri_cpp.dir/classification.cpp.o" \
 "CMakeFiles/pri_cpp.dir/classification_data.cpp.o" \
-"CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o" \
-"CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o" \
 "CMakeFiles/pri_cpp.dir/coder_posix_time.c.o" \
 "CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o" \
 "CMakeFiles/pri_cpp.dir/minOrMax.cpp.o" \
 "CMakeFiles/pri_cpp.dir/ordering.cpp.o" \
-"CMakeFiles/pri_cpp.dir/sigmoid.cpp.o" \
-"CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o" \
 "CMakeFiles/pri_cpp.dir/tic.cpp.o" \
 "CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o" \
 "CMakeFiles/pri_cpp.dir/toc.cpp.o" \
@@ -296,14 +240,10 @@ pri_cpp_EXTERNAL_OBJECTS =
 pri_cpp: CMakeFiles/pri_cpp.dir/main.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/classification.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/classification_data.cpp.o
-pri_cpp: CMakeFiles/pri_cpp.dir/classification_initialize.cpp.o
-pri_cpp: CMakeFiles/pri_cpp.dir/classification_terminate.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/coder_posix_time.c.o
 pri_cpp: CMakeFiles/pri_cpp.dir/CoderTimeAPI.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/minOrMax.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/ordering.cpp.o
-pri_cpp: CMakeFiles/pri_cpp.dir/sigmoid.cpp.o
-pri_cpp: CMakeFiles/pri_cpp.dir/sortedInsertion.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/tic.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/timeKeeper.cpp.o
 pri_cpp: CMakeFiles/pri_cpp.dir/toc.cpp.o
@@ -312,7 +252,7 @@ pri_cpp: CMakeFiles/pri_cpp.dir/build.make
 pri_cpp: /Applications/MATLAB_R2021a.app/bin/maci64/libmat.dylib
 pri_cpp: /Applications/MATLAB_R2021a.app/bin/maci64/libmx.dylib
 pri_cpp: CMakeFiles/pri_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable pri_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable pri_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pri_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

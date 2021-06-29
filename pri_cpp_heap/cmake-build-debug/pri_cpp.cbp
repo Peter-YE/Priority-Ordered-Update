@@ -98,21 +98,6 @@
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_data.h">
 			<Option target="pri_cpp"/>
 		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.cpp">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_terminate.cpp">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_terminate.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_types.h">
-			<Option target="pri_cpp"/>
-		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/coder_posix_time.c">
 			<Option target="pri_cpp"/>
 		</Unit>
@@ -144,18 +129,6 @@
 			<Option target="pri_cpp"/>
 		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sigmoid.cpp">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sigmoid.h">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sortedInsertion.cpp">
-			<Option target="pri_cpp"/>
-		</Unit>
-		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/sortedInsertion.h">
 			<Option target="pri_cpp"/>
 		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tic.cpp">

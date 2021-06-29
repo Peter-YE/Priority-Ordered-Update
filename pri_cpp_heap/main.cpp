@@ -12,7 +12,6 @@
 
 #include "main.h"
 #include "classification.h"
-#include "classification_terminate.h"
 #include "ordering.h"
 
 // Function Declarations
@@ -110,7 +109,6 @@ int main(void) {
 
     // Terminate the application.
     // You do not need to do this more than one time.
-    classification_terminate();
     return 0;
 }
 

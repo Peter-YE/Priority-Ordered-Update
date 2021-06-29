@@ -1,0 +1,112 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_data.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/main.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+tic.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tic.h
+toc.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/toc.h
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minHeap.h
+iostream
+-
+algorithm
+-
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minOrMax.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+main.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/main.h
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/ordering.cpp
+ordering.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/ordering.h
+classification_data.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_data.h
+classification_initialize.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/classification_initialize.h
+minOrMax.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minOrMax.h
+tic.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tic.h
+toc.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/toc.h
+algorithm
+-
+cmath
+-
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/ordering.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+main.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/main.h
+minHeap.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/minHeap.h
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+tmwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tmwtypes.h
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tic.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/tmwtypes.h
+limits.h
+-
+stdbool.h
+-
+float.h
+-
+stddef.h
+-
+
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/toc.h
+rtwtypes.h
+/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_heap/rtwtypes.h
+cstddef
+-
+cstdlib
+-
+

@@ -1,14 +1,11 @@
 // Include files
 #include "ordering.h"
 #include "classification_data.h"
-#include "classification_initialize.h"
 #include "minOrMax.h"
-#include "sortedInsertion.h"
 #include "tic.h"
 #include "toc.h"
 #include <algorithm>
 #include <cmath>
-#include <cstring>
 
 // Function Definitions
 void ordering(const double Theta1[(imageSize+1)*layer1], const double Theta2[(layer1+1)*layer2],
@@ -24,19 +21,13 @@ void ordering(const double Theta1[(imageSize+1)*layer1], const double Theta2[(la
     double mark1[layer1];
     double b_x[layer2];
     double ex;
-    int itmp[layer1];
-    int iwork[layer1];
     int a_2;
     int b_i;
     int b_k;
     int i;
     int i2;
     int j;
-    int qEnd;
     short tmp_data[layer1];
-    if (!isInitialized_classification) {
-        classification_initialize();
-    }
     //  =================== Function: ordering ===================
     coder::tic();
     for (i = 0; i < layer1; i++) {
@@ -44,13 +35,16 @@ void ordering(const double Theta1[(imageSize+1)*layer1], const double Theta2[(la
             x[a_2 + (imageSize+1) * i] = Theta1[i + layer1 * a_2];
         }
     }
+
     for (b_k = 0; b_k < (imageSize+1)*layer1; b_k++) {
         b[b_k] = std::abs(x[b_k]);
     }
     a[0] = 1.0;
+
     for (i = 0; i < imageSize; i++) {
         a[i + 1] = (X_in[i] - X_old[i] == 0.0);
     }
+
     for (i = 0; i < layer1; i++) {
         ex = 0.0;
         for (a_2 = 0; a_2 < imageSize+1; a_2++) {
@@ -58,10 +52,11 @@ void ordering(const double Theta1[(imageSize+1)*layer1], const double Theta2[(la
         }
         mark1[i] = ex;
     }
+
     //sort mark
-    minHeap window(k, mark1);
+    minHeap heap(k, mark1);
     for (i = k; i < layer1;++i){
-        window.insertion(mark1[i],i);
+        heap.insertion(mark1[i], i);
     }
     //create mask
     // ind = sort(ind);
@@ -69,9 +64,9 @@ void ordering(const double Theta1[(imageSize+1)*layer1], const double Theta2[(la
         mask1[i] = true;
     }
     int ind[k];
-    std::copy(window.getInd(),window.getInd()+k,ind);
+    std::copy(heap.getInd(), heap.getInd() + k, ind);
     for (i = 0; i < k; i++) {
-        mask1[window.getInd()[i]] = false;
+        mask1[heap.getInd()[i]] = false;
     }
     *time1 = coder::toc();
     coder::tic();
