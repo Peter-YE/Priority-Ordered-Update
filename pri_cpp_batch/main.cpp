@@ -18,7 +18,7 @@
 // Function Declarations
 // Matlab data structures
 
-int main(void) {
+int main() {
     int numK = ratio*layer1;
     // The initialize function is being called automatically from your entry-point
     // function. So, a call to initialize is not included here. Invoke the
@@ -85,11 +85,14 @@ int main(void) {
         double time1;
         double time2;
         boolean_T mask1[layer1];
-        ordering(Theta1, tempX, tempX_old, numK, mask1,
-                 &time1);
-        time_order += time1;
+        if (image % 10 == 0){
+            ordering(Theta1, tempX, tempX_old, numK, mask1,
+                     &time1);
+            time_order += time1;
+        }
+        coder::tic();
         maskedClassification(Theta1, Theta2, tempX, h1_old, &p[image], h1, mask1);
-
+        time_classification += coder::toc();
         //time_classification += time2;
     }
 
