@@ -15,7 +15,7 @@ extern void ordering(const double Theta1[(imageSize+1)*layer1],
     static double b[(imageSize+1)*layer1];
     static double x[(imageSize+1)*layer1];
     double a[imageSize+1];
-    double mark1[layer1];
+    double score1[layer1];
     double ex;
     int a_2;
     int b_k;
@@ -43,24 +43,41 @@ extern void ordering(const double Theta1[(imageSize+1)*layer1],
         for (a_2 = 0; a_2 < imageSize+1; a_2++) {
             ex += a[a_2] * b[a_2 + (imageSize+1) * i];
         }
-        mark1[i] = ex;
+        score1[i] = ex;
     }
 
-    //sort mark
-    minHeap heap(k, mark1);
+    //sort score
+    minHeap heap(k, score1);
     for (i = k; i < layer1;++i){
-        heap.insertion(mark1[i], i);
+        heap.insertion(score1[i], i);
     }
     //create mask
     // ind = sort(ind);
     for (i = 0; i < layer1; i++) {
-        mask1[i] = true;
+        if (score1[i] > 10){
+            mask1[i] = true;
+        }
+        else{
+            mask1[i] = false;
+        }
+
     }
+
     int ind[k];
     std::copy(heap.getInd(), heap.getInd() + k, ind);
     for (i = 0; i < k; i++) {
         mask1[heap.getInd()[i]] = false;
     }
+/*    //thresholding
+    for (i = 0; i < layer1; i++) {
+        if (score1[i] > 10){
+            mask1[i] = true;
+        }
+        else{
+            mask1[i] = false;
+        }
+
+    }*/
     *time = coder::toc();
 }
 

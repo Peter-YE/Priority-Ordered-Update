@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="pri_cpp_batch" targetName="pri_cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e249aef3-a40b-444b-ace8-dfa0fe355f5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pri_cpp_batch/data/out.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pri_cpp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoderTimeAPI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoderTimeAPI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_clang-format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_data.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pri_cpp.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/pri_cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/pri_cpp.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/pri_cpp_batch.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codedescriptor.dmr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coder_posix_time.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coder_posix_time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataY.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-100-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-100-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-150-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-150-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-200-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-200-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-25-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-25-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-250-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-250-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-300-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-300-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-350-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-350-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-400-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-400-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-50-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-50-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-75-1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/n-75-2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/out.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maskedClassification.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maskedClassification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minHeap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minHeap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minOrMax.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minOrMax.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtwtypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tic.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeKeeper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeKeeper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmwtypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/pri_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/pri_cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/ordering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/ordering.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tugDVLPpLZfZNJFy4EtK44jt5r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pri_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pri_cpp_batch" TARGET_NAME="pri_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pri_cpp_batch" RUN_TARGET_NAME="pri_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e249aef3-a40b-444b-ace8-dfa0fe355f5d" name="Default Changelist" comment="" />
+      <created>1623624268549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623624268549</updated>
+      <workItem from="1623624269929" duration="10172000" />
+      <workItem from="1624447251803" duration="17038000" />
+      <workItem from="1624640816407" duration="14714000" />
+      <workItem from="1624978165116" duration="104000" />
+      <workItem from="1624978473202" duration="68000" />
+      <workItem from="1624978607741" duration="7250000" />
+      <workItem from="1624991422169" duration="8395000" />
+      <workItem from="1625742377364" duration="1722000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

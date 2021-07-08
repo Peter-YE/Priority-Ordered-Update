@@ -83,9 +83,8 @@ int main() {
         double h1_old[layer1];
         std::copy(h1,h1+layer1,h1_old);
         double time1;
-        double time2;
         boolean_T mask1[layer1];
-        if (image % 10 == 0){
+        if (image % batchSize == 0){
             ordering(Theta1, tempX, tempX_old, numK, mask1,
                      &time1);
             time_order += time1;
@@ -102,6 +101,10 @@ int main() {
             ++accuracy;
         }
     }
+    std::ofstream outFile;
+    outFile.open("../data/out.bin", std::ios_base::binary | std::ios_base::out);
+    outFile.write(reinterpret_cast<char*>(p),sizeof(int)* imageNum);
+    outFile.close();
     std::cout<<"ordered accuracy = "<< accuracy*100/imageNum <<"%" <<std::endl;
     std::cout<<"ordering time= "<< time_order <<std::endl;
     std::cout<<"classification time= "<< time_classification <<std::endl;
