@@ -7,8 +7,8 @@ input_layer_size  = 400;  % 20x20 Input Images of Digits
 hidden_layer_size = 200;   % 25 hidden units
 num_labels = 10;          % 10 labels, from 1 to 10 
 
-%k = 4*round(hidden_layer_size/5);
-k=100;
+k = 4*round(hidden_layer_size/5);
+%k=100;
 
 %% =========== Part 1: Loading and Visualizing Data =============
 

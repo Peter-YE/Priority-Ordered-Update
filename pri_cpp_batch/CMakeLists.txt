@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD 14)
 #add_library(${LIB_MX} SHARED IMPORTED)
 #set_target_properties(${LIB_MX} PROPERTIES IMPORTED_LOCATION /Applications/MATLAB_R2021a.app/bin/maci64/libmx.dylib)
 
-add_executable(pri_cpp main.cpp classification.cpp classification.h classification_data.cpp classification_data.h coder_posix_time.c coder_posix_time.h CoderTimeAPI.cpp CoderTimeAPI.h main.h minOrMax.cpp minOrMax.h ordering.cpp ordering.h rtwtypes.h tic.cpp tic.h timeKeeper.cpp timeKeeper.h tmwtypes.h toc.cpp toc.h minHeap.cpp minHeap.h maskedClassification.cpp maskedClassification.h)
+add_executable(pri_cpp main.cpp classification.cpp classification.h classification_data.cpp classification_data.h coder_posix_time.c coder_posix_time.h CoderTimeAPI.cpp CoderTimeAPI.h main.h minOrMax.cpp minOrMax.h ordering.cpp ordering.h rtwtypes.h tic.cpp tic.h timeKeeper.cpp timeKeeper.h tmwtypes.h toc.cpp toc.h minHeap.cpp minHeap.h maskedClassification.cpp maskedClassification.h maxHeap.cpp maxHeap.h)
 
 target_link_libraries(pri_cpp /Applications/MATLAB_R2021a.app/bin/maci64/libmat.dylib)
 target_link_libraries(pri_cpp /Applications/MATLAB_R2021a.app/bin/maci64/libmx.dylib)

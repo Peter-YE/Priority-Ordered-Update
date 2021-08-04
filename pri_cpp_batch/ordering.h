@@ -17,6 +17,7 @@
 #include <cstdlib>
 #include "main.h"
 #include "minHeap.h"
+#include "maxHeap.h"
 
 // Function Declarations
 extern void ordering(const double Theta1[(imageSize+1)*layer1],

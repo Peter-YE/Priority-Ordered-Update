@@ -46,10 +46,10 @@
 
 const int imageSize = 400;
 const int imageNum = 5000;
-const int layer1 = 400;
+const int layer1 = 200;
 const int layer2 = 10;
-const double ratio = 0.8;
-const int batchSize = 1;
+const double ratio = 0.2;
+const int batchSize = 5;
 // Function Declarations
 //extern int main(int argc, char **argv);
 

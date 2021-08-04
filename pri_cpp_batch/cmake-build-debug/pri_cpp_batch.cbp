@@ -116,6 +116,12 @@
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_batch/maskedClassification.h">
 			<Option target="pri_cpp"/>
 		</Unit>
+		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_batch/maxHeap.cpp">
+			<Option target="pri_cpp"/>
+		</Unit>
+		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_batch/maxHeap.h">
+			<Option target="pri_cpp"/>
+		</Unit>
 		<Unit filename="/Users/peter/Documents/Imperial/OneDrive - Imperial College London/MSc Individual Research Project/Priority-Ordered-Update/pri_cpp_batch/minHeap.cpp">
 			<Option target="pri_cpp"/>
 		</Unit>

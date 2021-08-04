@@ -305,6 +305,33 @@ maskedClassification.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/maskedClassification.cpp.s
 .PHONY : maskedClassification.cpp.s
 
+maxHeap.o: maxHeap.cpp.o
+
+.PHONY : maxHeap.o
+
+# target to build an object file
+maxHeap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/maxHeap.cpp.o
+.PHONY : maxHeap.cpp.o
+
+maxHeap.i: maxHeap.cpp.i
+
+.PHONY : maxHeap.i
+
+# target to preprocess a source file
+maxHeap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/maxHeap.cpp.i
+.PHONY : maxHeap.cpp.i
+
+maxHeap.s: maxHeap.cpp.s
+
+.PHONY : maxHeap.s
+
+# target to generate assembly for a file
+maxHeap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pri_cpp.dir/build.make CMakeFiles/pri_cpp.dir/maxHeap.cpp.s
+.PHONY : maxHeap.cpp.s
+
 minHeap.o: minHeap.cpp.o
 
 .PHONY : minHeap.o
@@ -494,6 +521,9 @@ help:
 	@echo "... maskedClassification.o"
 	@echo "... maskedClassification.i"
 	@echo "... maskedClassification.s"
+	@echo "... maxHeap.o"
+	@echo "... maxHeap.i"
+	@echo "... maxHeap.s"
 	@echo "... minHeap.o"
 	@echo "... minHeap.i"
 	@echo "... minHeap.s"
