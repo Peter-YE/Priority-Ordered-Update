@@ -21,9 +21,6 @@ m = size(X, 1);
 
 load('n-25.mat')
 
-
-% X = processImagesMNIST('train-images-idx3-ubyte.gz');
-% y = processLabelsMNIST('train-labels-idx1-ubyte.gz');
 %% ================= Part 6: Implement Classification =================
 
 

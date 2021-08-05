@@ -12,38 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e249aef3-a40b-444b-ace8-dfa0fe355f5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pri_cpp_batch/maxHeap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pri_cpp_batch/maxHeap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/pri_cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/pri_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/pri_cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/pri_cpp_batch.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/cmake-build-debug/pri_cpp_batch.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/data/out.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/data/out.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/ordering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/ordering.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_batch/ordering.h" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_batch/ordering.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/CMakeFiles/pri_cpp.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/pri_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/cmake-build-debug/pri_cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/data/out.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/data/out.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pri_cpp_rand/ordering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pri_cpp_rand/ordering.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../priority_v1_m2c/pri3.m" beforeDir="false" afterPath="$PROJECT_DIR$/../priority_v1_m2c/pri3.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../priority_efast/pri3.m" beforeDir="false" afterPath="$PROJECT_DIR$/../priority_efast/pri3.m" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +61,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="pri_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pri_cpp_batch" TARGET_NAME="pri_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pri_cpp_batch" RUN_TARGET_NAME="pri_cpp">
@@ -125,6 +96,7 @@
       <workItem from="1626196079955" duration="3273000" />
       <workItem from="1626628480202" duration="3314000" />
       <workItem from="1627764438459" duration="1642000" />
+      <workItem from="1628181769097" duration="38000" />
     </task>
     <servers />
   </component>
